@@ -8,30 +8,30 @@ Simple scripts for configure [Node.js](https://nodejs.org/) & [MongoDB](https://
 ## Simple Usage
 
 ```
-  # add some public keys
-  nano ~/.ssh/authorized_keys
+# add some public keys
+nano ~/.ssh/authorized_keys
 
-  apt-get -y update
-  apt-get -y install default-jre git ImageMagick
+apt-get -y update
+apt-get -y install default-jre git ImageMagick
 
-  git clone https://github.com/DevelopmentIL/cloud-scripts.git
-  cd ./cloud-scripts
+git clone https://github.com/DevelopmentIL/cloud-scripts.git
+cd ./cloud-scripts
 
-  bash ./swap_create.sh 4096
-  bash ./ntp_setup.sh /usr/share/zoneinfo/Asia/Jerusalem
-  bash ./root_email.sh server@development.co.il
-  bash ./ssh_secure.sh 337
+bash ./swap_create.sh 2048
+bash ./ntp_setup.sh /usr/share/zoneinfo/Asia/Jerusalem
+bash ./root_email.sh server@development.co.il
+bash ./ssh_secure.sh 337
 
-  bash ./npm_setup.sh
-  bash ./logrotate_node.sh
+bash ./npm_setup.sh
+bash ./logrotate_node.sh
 
-  bash ./mongo_setup.sh
-  bash ./mongo_backup.sh
+bash ./mongo_setup.sh
+bash ./mongo_backup.sh
 
-  bash ./node_setup.sh username
-  bash ./nginx_setup.sh
+bash ./node_setup.sh username
+bash ./nginx_setup.sh
 
-  bash ./monit_setup.sh
+bash ./monit_setup.sh
 ```
 
 
