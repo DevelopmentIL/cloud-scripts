@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cronfile=/etc/cron.daily/mongod.sh
+cronfile=/etc/cron.daily/mongod
 
 mkdir -p /backup/mongodb
 
