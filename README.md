@@ -20,6 +20,8 @@ cd ./cloud-scripts
 bash ./swap_create.sh 2048
 bash ./ntp_setup.sh /usr/share/zoneinfo/Asia/Jerusalem
 bash ./root_email.sh server@development.co.il
+
+bash ./ufw_setup.sh 337
 bash ./ssh_secure.sh 337
 
 bash ./npm_setup.sh

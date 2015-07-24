@@ -24,7 +24,6 @@ echo "check process sshd with pidfile /var/run/sshd.pid
 " > /etc/monit/conf.d/ssh
 
 service ssh restart
-bash ./scripts/ufw_setup.sh $sshPort
 
 echo "ssh port has been changed!"
 echo "Please verify that you can login... (keep this session open)"
